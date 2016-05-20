@@ -1,10 +1,10 @@
 ---
-title: "PHW1.5: Hello World GUI"
+title: "PHW1.5: Import & Export"
 published: true
 morea_id: phw1.5
 morea_type: experience
 morea_sort_order: 2
-morea_summary: "Practice HW: Import & Export"
+morea_summary: "Practice HW: Hello World GUI"
 morea_labels:
 ---
 

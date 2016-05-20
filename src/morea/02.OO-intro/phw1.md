@@ -1,10 +1,10 @@
 ---
-title: "PHW1: Hello World"
+title: "PHW1: New Project"
 published: true
 morea_id: phw1
 morea_type: experience
 morea_sort_order: 1
-morea_summary: "Practice HW: New Project"
+morea_summary: "Practice HW: Hello World"
 morea_labels:
 ---
 
