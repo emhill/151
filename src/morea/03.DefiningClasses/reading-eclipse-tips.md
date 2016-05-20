@@ -31,6 +31,6 @@ In an Eclipse workspace, you can only have one project with the same name. That 
 
 When deleting a project from eclipse, make sure you delete the contents from disk so you don't have naming conflicts in future:
 
-<a href="../01.WOD-intro/delete-project.png"><img src="../01.WOD-intro/delete-project.png" width="400"/></a>
+<a href="delete-project.png"><img src="delete-project.png" width="400"/></a>
 
 *This **cannot** be undone*, so make sure you don't want the code anymore!
