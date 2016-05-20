@@ -5,10 +5,10 @@ baseurl: /151
 exclude: [morea]
 morea_theme: cerulean
 morea_navbar_items:
-  #- Prerequisites
-  - Modules
-  - Outcomes
-  - Readings
-  - Experiences
-  #- Assessments
-  #-Schedule
+#- Prerequisites
+- Modules
+- Outcomes
+- Readings
+- Experiences
+#- Assessments
+#-Schedule
