@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Assessments | CSCI 151 </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <!--  Load bootswatch-based Morea theme file. -->
+  <link rel="stylesheet" href="/151/css/themes/cerulean/bootstrap.min.css">
+  <link rel="stylesheet" href="/151/css/style.css">
+  <link rel="stylesheet" href="/151/css/syntax.css">
+  <link rel="shortcut icon" href="/151/favicon.ico" type="image/x-icon" />
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.js"></script>
+  <![endif]-->
+
+  <!-- Load Bootstrap JavaScript components -->
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- Responsive navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <!--  Display three horizontal lines when navbar collapsed. -->
+        <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/151/index.html"> CSCI 151 </a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="/151/modules/">Modules</a></li>
+        
+          <li><a href="/151/outcomes/">Outcomes</a></li>
+        
+        
+          <li><a href="/151/readings/">Readings</a></li>
+        
+        
+          <li><a href="/151/experiences/">Experiences</a></li>
+        
+        
+          <li><a href="/151/assessments/">Assessments</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+  <div class="container">
+  <h1>Assessments <small>in module order</small></h1>
+</div>
+
+<div class="section-background-1">
+  <div class="container">
+    <h2><small>Module:</small> <a href="/151/modules/control/">Collections &amp; Control Flow</a></h2>
+
+    
+      
+      <a style="padding-top: 50px; margin-top: -50px; display: table-caption;" name="grade3"></a><h3>WOD3: Crowd</h3>
+      <p>
+        
+      </p>
+      
+        <p>
+        <em>Outcomes assessed:</em>
+          
+            <a href="/151/outcomes/#outcome-classes">Writing &amp; using classes</a>
+          
+        </p>
+      
+      <script src="/151/js/Chart.js"></script>
+
+<div class="row">
+  <div class="col-sm-6">
+    <div class="well">
+      <div style="margin-right: auto; margin-left: auto">
+        <canvas id="grade3"></canvas>
+      </div>
+     </div>
+  </div>
+
+  <div class="col-sm-6">
+    
+<p>Create a Pesron and Crowd similar to the BoxCar and Forest classes we have done as practice. “Excellent” is correct and on time, “Satisfactory” indicates correct submissions that were late (or on time with a minor issue), and “Unsatisfactory” submissions were incorrect or incomplete in some way. A score of 6 is excellent, 5 is satisfactory, and 1-4 unsatisfactory (needs improvement).</p>
+
+  </div>
+
+  <script>
+
+    var moreaChartData = {
+      labels: ["Excellent", "Satisfactory", "Unsatisfactory", "No Submission"],
+      datasets: [ { data: [4, 15, 4, 2] } ]
+    };
+
+    var moreaChartOptions = {
+      scaleGridLineColor: "gray",
+      scaleFontColor: "darkgray",
+      scaleLineColor: "darkgray",
+      responsive: true,
+      animation: false
+    };
+
+    // Get the context of the canvas element we want to select
+    var ctx = document.getElementById("grade3").getContext("2d");
+    var myNewChart = new Chart(ctx).Bar(moreaChartData, moreaChartOptions);
+
+  </script>
+
+
+
+
+
+<!--<link rel="stylesheet" href="http://cdn.oesmith.co.uk/morris-0.4.3.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+<script src="http://cdn.oesmith.co.uk/morris-0.4.3.min.js"></script>
+
+<div class="well" style="width: 550px">
+  <div id="assessment" style="width: 500px; height: 250px"></div>
+  Follow the Eclipse project workflow we'll be using for the rest of the semester. "Satisfactory" indicates that working Java code was submitted, but that the Eclipse project was flawed in some way.
+</div>
+
+<script>
+Morris.Bar({
+  element: 'assessment',
+  hideHover: false,
+  data: [
+        { y: 'Excellent (%)', num: 12 },
+        { y: 'Satisfactory (%)', num: 12 },
+        { y: 'Unsatisfactory (%)', num: 1 },
+        ],
+  xkey: 'y',
+  ykeys: ['num'],
+  resize: true,
+  labels: ['Students']
+});
+</script>
+-->
+</div>
+
+    
+  </div>
+</div>
+
+<div class="section-background-2">
+  <div class="container">
+    <h2><small>Module:</small> <a href="/151/modules/hangman/">Putting it all together</a></h2>
+
+    
+      
+      <a style="padding-top: 50px; margin-top: -50px; display: table-caption;" name="grade-midterm"></a><h3>Midterm Exam</h3>
+      <p>
+        
+      </p>
+      
+        <p>
+        <em>Outcomes assessed:</em>
+          
+            <a href="/151/outcomes/#outcome-programming">Applying Advanced Programming Constructs</a>, 
+          
+            <a href="/151/outcomes/#outcome-classes">Writing &amp; using classes</a>
+          
+        </p>
+      
+      <p><a href="/151/morea/08.project1/results.png"><img src="/151/morea/08.project1/results.png" width="500" /></a></p>
+
+<p>Mean: 79</p>
+
+    
+  </div>
+</div>
+
+
+
+
+
+<div class="footer-background">
+<footer>
+  <div class="container page-footer">
+    
+      <p><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#101;&#104;&#105;&#108;&#108;&#049;&#064;&#100;&#114;&#101;&#119;&#046;&#101;&#100;&#117;">Emily Hill</a> | <a href="http://www.drew.edu/mcs/">Department of Mathematics and Computer Science</a> | <a href="http://www.drew.edu/">Drew University</a> <br />
+<!---emhill@drew.edu<br>--></p>
+
+    
+    <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: cerulean)<br>
+       Last update on: <span>2016-05-20 16:49:21 -0400</span></p>
+    <p style="margin: 0">
+      13 modules
+      
+        | 8 outcomes
+      
+      
+        | 43 readings
+      
+      
+        | 19 experiences
+      
+      
+        | 2 assessments
+      
+    </p>
+  </div>
+</footer>
+</div>
+</body>
+</html>

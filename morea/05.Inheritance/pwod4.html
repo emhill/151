@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> PHW6 | CSCI 151 </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <!--  Load bootswatch-based Morea theme file. -->
+  <link rel="stylesheet" href="/151/css/themes/cerulean/bootstrap.min.css">
+  <link rel="stylesheet" href="/151/css/style.css">
+  <link rel="stylesheet" href="/151/css/syntax.css">
+  <link rel="shortcut icon" href="/151/favicon.ico" type="image/x-icon" />
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.js"></script>
+  <![endif]-->
+
+  <!-- Load Bootstrap JavaScript components -->
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- Responsive navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <!--  Display three horizontal lines when navbar collapsed. -->
+        <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/151/index.html"> CSCI 151 </a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="/151/modules/">Modules</a></li>
+        
+          <li><a href="/151/outcomes/">Outcomes</a></li>
+        
+        
+          <li><a href="/151/readings/">Readings</a></li>
+        
+        
+          <li><a href="/151/experiences/">Experiences</a></li>
+        
+        
+          <li><a href="/151/assessments/">Assessments</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <h1 id="phw6-rectangle">PHW6: Rectangle</h1>
+
+<p>In class we saw how to use inheritance to reuse code between our Ellipse and Circle classes. Now it’s your turn.</p>
+
+<p><span class="h4">
+  <span style="padding: 2px" class="label label-success">Rx: &lt;10 min</span>
+  <span style="padding: 2px" class="label label-info">Av: 10-20 min</span>
+  <span style="padding: 2px" class="label label-warning">Sd: 20-30 min</span>
+  <span style="padding: 2px" class="label label-danger">DNF: 30+ min</span>
+</span></p>
+
+<h2 id="instructions">Instructions</h2>
+
+<ol>
+  <li>If you haven’t been following along in class, download the <a href="Shapes_2_20.zip">Shapes Project</a> and import it into your workspace.</li>
+  <li>Use inheritance to add a Rectangle class to your Shapes project. First, think about how Square and Rectangle are related. Should Rectangle extend Square, or vice versa? We went over both ways in class.</li>
+  <li>Determine what fields are needed in the Square &amp; Rectangle classes. Overlapping fields should only be in <em>one</em> class.</li>
+  <li>Your Rectangle &amp; Square classes should have at least 3 constructors each:
+    <ul>
+      <li>Default constructor (no parameters)</li>
+      <li>Constructor with parameters for each field except <code>outlineColor</code></li>
+      <li>Constructor with parameters for each field</li>
+    </ul>
+  </li>
+  <li>Add get &amp; set methods for all the fields. There should not be any duplicated get/set methods.</li>
+  <li>Make sure the <code>getArea()</code> and <code>getPerimeter()</code> methods work for both classes, and test in main by creating at least one Rectangle and one Square object.</li>
+  <li>Make sure the <code>draw()</code> method works for both classes and test it by adding a Rectangle and Square to your Picture class.</li>
+  <li>Run the program to verify your changes.</li>
+</ol>
+
+<!--## Demonstration
+
+
+Once you've finished doing the WOD a single time, watch me do it.
+
+Square as a super class to Rectangle:
+
+<div class="video-container">
+  <iframe  src="http://www.youtube.com/embed/19fPKI0k530" frameborder="0" allowfullscreen></iframe>
+</div>
+
+Rectangle as a super class to Square:
+
+<div class="video-container">
+  <iframe  src="http://www.youtube.com/embed/rKLl8vpDxy0" frameborder="0" allowfullscreen></iframe>
+</div>
+
+### My Final Project
+
+[Shapes_pwod4.zip](Shapes_pwod4.zip)
+
+## Standard Practice HW Advice
+
+You’ll learn significantly less from watching me solve the
+practice HW if you haven’t attempted the HW yourself first.
+
+While it's an achievement to finish the HW no matter how long it takes, you
+might experience "diminishing returns" if you work longer than the DNF
+time. Thus, it might be strategic to stop working at the DNF time and watch
+my solution.
+
+After watching my solution, I recommend that you repeat the HW if you
+have not achieved at least Av performance. If so, be sure to:
+
+  * Delete your old project so you cannot refer to it (remember to delete contents from disk);
+  * Don’t look at my screencast while you complete your HW; and
+  * Reset your timer.
+
+Feel free to keep trying until you make Rx if that’s of interest to you.-->
+
+</div>
+
+
+
+<div class="footer-background">
+<footer>
+  <div class="container page-footer">
+    
+      <p><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#101;&#104;&#105;&#108;&#108;&#049;&#064;&#100;&#114;&#101;&#119;&#046;&#101;&#100;&#117;">Emily Hill</a> | <a href="http://www.drew.edu/mcs/">Department of Mathematics and Computer Science</a> | <a href="http://www.drew.edu/">Drew University</a> <br />
+<!---emhill@drew.edu<br>--></p>
+
+    
+    <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: cerulean)<br>
+       Last update on: <span>2016-05-20 16:49:21 -0400</span></p>
+    <p style="margin: 0">
+      13 modules
+      
+        | 8 outcomes
+      
+      
+        | 43 readings
+      
+      
+        | 19 experiences
+      
+      
+        | 2 assessments
+      
+    </p>
+  </div>
+</footer>
+</div>
+</body>
+</html>
