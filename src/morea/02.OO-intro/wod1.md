@@ -18,7 +18,7 @@ After installing eclipse & setting up your workspace, create a  project, export 
 
 1. Write down your start time on your notecard
 1. Create a new Java project in eclipse with the name `HelloMe_uLogin`
-2. Create a new Java file `Hello.java`
+2. Create a new Java file (i.e., class) `Hello.java`
 3. In main, print `"Hello, [your name]"`
 2. Run the program to verify your changes.
 3. Export your program by right-clicking on your project folder, and selecting “Export > General > Archive File”. Name the file “HelloMe_uLogin.zip”.
