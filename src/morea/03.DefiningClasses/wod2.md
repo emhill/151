@@ -25,7 +25,9 @@ So far we have created a Circle & Square class. Next we'll create a Rectangle cl
     * Default constructor (no parameters)
     * Constructor with 5 parameters (one for each field)
 3. Add get & set methods for all the fields
-4. Add a `getArea()` and a `getPerimeter()` method & test them in main by creating a Rectangle variable, initializing it by calling one of the constructors, and printing out its value.
+<!--4. Add a `getArea()` and a `getPerimeter()` method & test them in main by creating a Rectangle variable, initializing it by calling one of the constructors, and printing out its value.-->
+2. Test that your set & get width methods are working in main by creating a Rectangle variable, initializing it by calling one of the constructors, and printing out its value. Set the width to a different value, and print the new value by calling your get method.
+2. Run the program to verify your changes.
 3. Export your program by right-clicking on your project folder, and selecting “Export > General > Archive File”. Name the file “Rectangle_uLogin.zip”.
 4. Upload the file to the assignment page on canvas
 4. Write down your stop time on your notecard
