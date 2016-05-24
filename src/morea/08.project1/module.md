@@ -14,7 +14,7 @@ morea_outcomes:
 morea_experiences:
  - project1
 morea_assessments:
- - grade-midterm
+# - grade-midterm
 morea_icon_url: /morea/materials/hangman.jpg
 morea_sort_order: 8
 ---

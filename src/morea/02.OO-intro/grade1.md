@@ -11,7 +11,7 @@ morea_chartjs_data: "[1, 1, 5, 0]"
 morea_chartjs_labels: '["Rx", "Av", "Sd", "DNF"]'
 morea_chartjs_caption: |
 
-  An excellent start to the semester!
+  In this exercise, we created a new Java project from scratch in eclipse, printed something, and exported the project & uploaded it to canvas. Overall, an excellent start to the semester!
   
 ---
 
