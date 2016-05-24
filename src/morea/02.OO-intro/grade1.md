@@ -6,16 +6,18 @@ morea_type: assessment
 morea_outcomes_assessed:
   - outcome-eclipse
 morea_sort_order: 1
+
 morea_chartjs_data: "[1, 1, 5, 0]"
 morea_chartjs_labels: '["Rx", "Av", "Sd", "DNF"]'
 morea_chartjs_caption: |
 
-  Notes
+  An excellent start to the semester!
   
 ---
 
-{% include assessment-chartjs.html %}
+<!--{% include assessment-chartjs.html %}-->
 
+{%  include assessment-chartjs-wod.html Rx="< 3 min" Av="3-5 min" Sd="5-10 min" DNF="11+ min or incorrect"  %}
 
 <!--<link rel="stylesheet" href="http://cdn.oesmith.co.uk/morris-0.4.3.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
