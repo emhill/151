@@ -16,6 +16,7 @@ morea_outcomes:
 morea_experiences:
  - phw1
  - phw1.5
+ - wod1
 morea_assessments:
 morea_icon_url: /morea/materials/car.jpg
 morea_sort_order: 2
