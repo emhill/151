@@ -17,6 +17,8 @@ So far we have created a Circle class. Next we'll create a Square class.
 
 ## Instructions
 
+### Part I: Create a Square class
+
 <!--1. *Start your timer* -->
 1. If you haven't been following along in class, download the [Shapes Project](Shapes_phw2.zip) and import it into your workspace.
 2. Right-click on your Shapes project and go to New > Class to create a `Square` class. Go ahead and check the box for Eclipse to create a main method.
@@ -26,8 +28,12 @@ So far we have created a Circle class. Next we'll create a Square class.
     * Constructor with 4 parameters (one for each field)
 3. Add get & set methods for all the fields
 4. Add a `getArea()` and a `getPerimeter()` method & test them in main by creating a Square variable & initializing it by calling one of the constructors.
-4. Add a `paint` method that draws the square. 
-4. Add a Square field to your Picture class to test it.
+
+
+### Part II: Draw a Square in Picture
+
+5. To your square class, add a `paint` method that draws the square like we did for Circle.
+4. Add a Square field to your Picture class to test it. Make sure to initialize your Square field in the constructor.
 2. Run the program to verify your changes.
 <!--1. *Stop your timer*-->
 3. Export your program by right-clicking on your project folder, and selecting “Export > General > Archive File”. Name the file “Square_uLogin.zip”.
