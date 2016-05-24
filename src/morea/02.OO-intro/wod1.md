@@ -1,16 +1,16 @@
 ---
-title: "Practice: Hello World"
+title: "WOD1: Hello World"
 published: true
 morea_id: wod1
 morea_type: experience
 morea_sort_order: 2
-morea_summary: "WOD: Hello World Import & Export"
+morea_summary: "Create a new project"
 morea_labels:
 ---
 
-# Practice: Hello World Import & Export
+# WOD1: Hello Me
 
-After installing eclipse & setting up your workspace, import your first project, change it, and export it.
+After installing eclipse & setting up your workspace, create a  project, export it, and upload it.
 
 {% include wod-times.html Rx="<3 min" Av="3-5 min" Sd="5-10 min" DNF="10+ min" %}
 
