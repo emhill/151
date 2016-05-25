@@ -4,7 +4,7 @@ published: true
 morea_id: grade2
 morea_type: assessment
 morea_outcomes_assessed:
-  - outcome-eclipse
+  - outcome-java
 morea_sort_order: 1
 
 morea_chartjs_data: "[2, 1, 4, 0]"
