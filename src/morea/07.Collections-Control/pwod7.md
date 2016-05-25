@@ -17,6 +17,7 @@ So far we've been working with composing shape objects with GUI Java classes. No
 
 ## Instructions
 
+### Part I: `BankAccount`
 
 1. Create a new Java Project called `BankAccount_uLogin`
 1. Create a new `BankAccount` class with:
@@ -31,6 +32,9 @@ So far we've been working with composing shape objects with GUI Java classes. No
 1. What happens if you try to deposit negative amounts or debit more than the balance? Test each of these cases in main. What do you *think* should happen?
 1. Modify the `debit` & `deposit` methods so that negative amounts have no effect. For example, myBankAccount.deposit(5) will add $5, but myBankAccount.deposit(-5) will do nothing. 
 1. Modify the `debit` method to make sure there are sufficient funds before deducting from the balance. Print an error message if there are insufficient funds.
+
+## Part II: `Bank`
+
 2. Now let's create a `Bank` class that can store multiple `BankAccount` objects:
     * **Fields** to store: the Bank's name and a list of accounts.
     * A **constructor** that takes the Bank’s name and initializes the list of accounts.
