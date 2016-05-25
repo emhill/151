@@ -14,8 +14,11 @@ morea_outcomes:
 morea_experiences:
  - phw2
  - wod2
+morea_assessments:
+ - grade2
 morea_icon_url: /morea/materials/java-logo.png
 morea_sort_order: 3
+
 ---
 
 Creating your first Java classes.
