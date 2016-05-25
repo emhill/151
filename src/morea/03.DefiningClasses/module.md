@@ -9,7 +9,7 @@ morea_readings:
  - reading-javanotes2
  - reading-burd4
 morea_outcomes:
- - outcome-java
+ - outcome-classes
  - outcome-eclipse
 morea_experiences:
  - phw2
