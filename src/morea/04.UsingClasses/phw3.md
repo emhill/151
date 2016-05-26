@@ -17,7 +17,7 @@ So far we have created a Circle and Square class. Next we'll update your Square 
 
 ## Instructions
 
-<!--1. *Start your timer* -->
+1. *Start your timer*
 1. If you haven't been following along, download the [Shapes Project](Shapes_phw3.zip) and import it into your workspace.
 2. Add a new field, `outlineColor`, to the Square class.
 2. Update the constructors to support the outline. You should have 3 constructors:
@@ -28,10 +28,11 @@ So far we have created a Circle and Square class. Next we'll update your Square 
 4. Update the draw method to draw the outline. 
 4. Test your Square changes in Picture.
 2. Run the program to verify your changes.
+3. *Stop your timer*
 
 ## Demonstration
 
- Once you've finished doing the WOD a single time, watch me do it:
+ Once you've finished doing the PHW a single time, watch me do it:
 
 {% include youtube.html id="Oga1vXsLqfk" %}
 
