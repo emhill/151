@@ -1,7 +1,7 @@
 ---
 title: "WOD3"
 published: true
-morea_id: wod3
+morea_id: wodX
 morea_type: experience
 morea_sort_order: 2
 morea_summary: "Person & Crowd"
