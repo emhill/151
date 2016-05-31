@@ -14,7 +14,7 @@ morea_outcomes:
 morea_experiences:
  - pwod6
  - pwod7
- - wod3
+ - wodX
 morea_assessments:
 # - grade3
 morea_icon_url: /morea/materials/programmer.jpeg

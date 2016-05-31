@@ -22,8 +22,8 @@ So far we have created a Circle, Square, and Rectangle class. Next we'll update 
 2. Add a new field, `outlineColor`, to the `Rectangle` class.
 2. Update the constructors to support the outline. You should have 3 constructors:
     * Default constructor (no parameters)
-    * Constructor with 4 parameters (no `outlineColor`)
-    * Constructor with 5 parameters (one for each field)
+    * Constructor with 5 parameters (no `outlineColor`)
+    * Constructor with 6 parameters (one for each field)
 3. Add get & set methods for the outline color.
 4. Update the `paint` method to draw the outline. 
 4. Test your Rectangle changes in Picture.
