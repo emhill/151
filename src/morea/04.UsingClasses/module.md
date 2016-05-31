@@ -14,6 +14,7 @@ morea_outcomes:
  - outcome-eclipse
 morea_experiences:
  - phw3
+ - wod3
 morea_assessments:
 morea_icon_url: /morea/materials/keep-calm-and-object-oriented-program.png
 morea_sort_order: 4
