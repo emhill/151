@@ -13,11 +13,11 @@ morea_labels:
 
 So far we've been working with composing shape objects with GUI Java classes. Now we're going to practice composing objects that only output to the console.
 
-{% include wod-times.html Rx="<20 min" Av="20-40 min" Sd="40-60 min" DNF="60+ min" %}
-
 ## Instructions
 
 ### Part I: `BankAccount`
+
+{% include wod-times.html Rx="<15 min" Av="15-30 min" Sd="30-45 min" DNF="45+ min" %}
 
 1. Create a new Java Project called `BankAccount_uLogin`
 1. Create a new `BankAccount` class with:
@@ -34,6 +34,8 @@ So far we've been working with composing shape objects with GUI Java classes. No
 1. Modify the `debit` method to make sure there are sufficient funds before deducting from the balance. Print an error message if there are insufficient funds.
 
 ## Part II: `Bank`
+
+{% include wod-times.html Rx="<10 min" Av="10-20 min" Sd="20-30 min" DNF="31+ min" %}
 
 2. Now let's create a `Bank` class that can store multiple `BankAccount` objects:
     * **Fields** to store: the Bank's name and a list of accounts.

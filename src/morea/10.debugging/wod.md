@@ -1,7 +1,7 @@
 ---
 title: "WOD4"
 published: true
-morea_id: wod4
+morea_id: wodY
 morea_type: experience
 morea_sort_order: 2
 morea_summary: "Debugging & Design"
