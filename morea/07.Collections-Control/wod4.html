@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Eclipse import demo | CSCI 151 </title>
+  <title> WOD | CSCI 151 </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
 
@@ -54,20 +54,36 @@
 
 
 <div class="container">
-  <!--  # Dr. Hill's Eclipse video demos
+  <h1 id="wod4-timer">WOD4: Timer</h1>
 
-These are recorded on a Mac, but the process is identical regardless of OS (Mac, Windows, Linux...)
- Recorded on a Mac, but the process is identical regardless of OS (Mac, Windows, Linux).
+<p>So far we’ve been working with composing shape objects with GUI Java classes. Now we’re going to practice creating a <code>Timer</code> class that outputs to the console &amp; uses if statements. Your <code>Timer</code> class will count up from 0 and print “You have no time left!”</p>
 
-  * Downloading & installing Eclipse, setting it up for the first time, and creating a new project: [DownloadingEclipse.mp4](http://msuweb.montclair.edu/~hillem/183/DownloadingEclipse.mp4)
-* Exporting a project from Eclipse: [ExportingEclipseProjectHD.mp4](http://msuweb.montclair.edu/~hillem /183/ExportingEclipseProjectHD.mp4) 1 min
-  * Importing projects into Eclipse: [ImportingEclipseProject.mp4](http://msuweb.montclair.edu/~hillem /183/ImportingEclipseProject.mp4) 2 min-->
+<p><span class="h4">
+  <span style="padding: 2px" class="label label-success">Rx: &lt;10 min</span>
+  <span style="padding: 2px" class="label label-info">Av: 10-20 min</span>
+  <span style="padding: 2px" class="label label-warning">Sd: 20-30 min</span>
+  <span style="padding: 2px" class="label label-danger">DNF: 31+ min</span>
+</span></p>
 
-<!--TODO: host locally! or on youtube...
-Download eclipse http://youtu.be/dc70DVjWnyI (6 min)
-export project: http://youtu.be/M6huFxzclGE (1 min)
-importing an eclipse project: http://youtu.be/oinpGiy3BPI (1 min)
--->
+<h2 id="instructions">Instructions</h2>
+
+<ol>
+  <li>Write down your start time on your notecard.</li>
+  <li>Create a new Java Project called <code>Timer_uLogin</code></li>
+  <li>Create a new <code>Timer</code> class with:
+    <ul>
+      <li><strong>Fields</strong> to store: the time elapsed (seconds or minutes) and the time limit. <em>Think about what types these should be.</em></li>
+      <li>A <strong>constructor</strong> that takes the time limit as a parameter. What should the time elapsed be initialized to?</li>
+      <li>A <code>tick</code> method that increments the time elapsed. If the time elapsed is greater than or equal to the limit, print “You have no time left!”</li>
+      <li>A <code>time_left</code> method that returns how much time is left.</li>
+      <li>A <code>print</code> method that prints out useful information for the timer. <em>Think about what information you want to know when you look at a timer that’s counting up.</em></li>
+    </ul>
+  </li>
+  <li>Test your <code>Timer</code> class by writing a <code>main</code> method that creates a new <code>Timer</code> stored in a local variable, <code>timer</code>, that counts up to 3. Call <code>tick</code> 3 times, printing your <code>timer</code>’s status after each call. Do you correctly print when there is no time left?</li>
+  <li>Export your program by right-clicking on your project folder, and selecting <code>Export &gt; General &gt; Archive File</code>. Name the file <code>Timer_uLogin.zip</code>.</li>
+  <li>Upload the file to the assignment page on canvas.</li>
+  <li>Write down your stop time on your notecard.</li>
+</ol>
 
 </div>
 
