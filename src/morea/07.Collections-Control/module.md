@@ -14,6 +14,7 @@ morea_outcomes:
 morea_experiences:
  - pwod6
  - pwod7
+ - wod4
  - wodX
 morea_assessments:
 # - grade3
