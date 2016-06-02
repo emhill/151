@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> PHW7 | CSCI 151 </title>
+  <title> PHW6 | CSCI 151 </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
 
@@ -54,58 +54,76 @@
 
 
 <div class="container">
-  <h1 id="phw7-tree">PHW7: Tree</h1>
+  <h1 id="phw6-itunes">PHW6: ITunes</h1>
 
-<p>In class we saw how to compose objects to create a BoxCar class. Now we’re going to create another composite shape: Tree.</p>
-
-<p><span class="h4">
-  <span style="padding: 2px" class="label label-success">Rx: &lt;25 min</span>
-  <span style="padding: 2px" class="label label-info">Av: 25-50 min</span>
-  <span style="padding: 2px" class="label label-warning">Sd: 50-75 min</span>
-  <span style="padding: 2px" class="label label-danger">DNF: 75+ min</span>
-</span></p>
+<p>So far we’ve been working with composing shape objects with GUI Java classes. Now we’re going to practice composing objects that only output to the console.</p>
 
 <h2 id="instructions">Instructions</h2>
 
+<h3 id="part-i-song--itunes-basic">Part I: <code>Song</code> &amp; <code>ITunes</code> basic</h3>
+
+<p><span class="h4">
+  <span style="padding: 2px" class="label label-success">Rx: &lt;15 min</span>
+  <span style="padding: 2px" class="label label-info">Av: 15-30 min</span>
+  <span style="padding: 2px" class="label label-warning">Sd: 30-45 min</span>
+  <span style="padding: 2px" class="label label-danger">DNF: 45+ min</span>
+</span></p>
+
+<p>Create an iTunes class that stores a list of songs as an ArrayList, and initialize the list to be empty
+Create a method addSong to the iTunes class
+Create a main method that adds 3 songs to iTunes (don’t use the default constructor)</p>
+
 <ol>
-  <li>If you haven’t been following along in class, download the <a href="Picture_starter.zip">Picture Project</a> and import it into your workspace.</li>
-  <li>Create a new <code>Tree</code> class with:
+  <li>Create a new Java Project called <code>ITunes_uLogin</code></li>
+  <li>Create a new <code>Song</code> class with:
     <ul>
-      <li>2 fields: a Triangle for the <code>top</code> &amp; a Rectangle for the <code>trunk</code></li>
-      <li>3 constructors:
+      <li><strong>4 Fields:</strong> for a song’s title, artist, album, &amp; price</li>
+      <li><strong>2 Constructors:</strong> a default with no parameters and one with a parameter for each field</li>
+      <li><strong>9 methods</strong>: getters &amp; setters for each field, and toString.
         <ul>
-          <li>Default constructor (no parameters)</li>
-          <li>Constructor with 4 parameters: <code>x</code>, <code>y</code>, <code>width</code>, &amp; <code>height</code></li>
-          <li>Constructor with 6 parameters: <code>x</code>, <code>y</code>, <code>width</code>, <code>height</code>, <code>topColor</code>, <code>trunkColor</code></li>
+          <li>You can automatically generate getters &amp; setters in Eclipse by right-clicking anywhere in the class and going to <code>Source &gt; Generate Getters &amp; Setters</code> and clicking <code>Select All</code>.</li>
+          <li><code>toString</code> is a special <a href="https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#toString%28%29">Java method</a> that returns a string representation of an object. When we don’t define a <code>toString</code> method and we try to print an object, we get its <a href="http://www.dreamincode.net/forums/topic/209515-basics-of-tostring/">location in memory</a> instead!</li>
         </ul>
       </li>
-      <li>a setter for <code>topColor</code> &amp; <code>trunkColor</code></li>
-      <li>a <code>setBounds</code> method that:
-        <ul>
-          <li>Has 4 parameters: <code>x</code>, <code>y</code>, <code>width</code>, &amp; <code>height</code></li>
-          <li>The tree starts at <code>x, y</code> and extends to <code>width</code> &amp; <code>height</code></li>
-          <li>The top is 3/4 height of the tree &amp; the full width</li>
-          <li>The trunk is 1/4 height of the tree &amp; 1/5 the width</li>
-        </ul>
-      </li>
-      <li>a <code>paint</code> method that takes a <code>Graphics</code> parameter and calls the draw methods of the 2 fields</li>
     </ul>
   </li>
-  <li>Test your new Tree class by adding 3 to the Picture class. Make sure to use different constructors, and change the size of the Tree using <code>setBounds</code> to verify that it works correctly for any size tree.</li>
+  <li>Create an <code>ITunes</code> class that: 
+    <ul>
+      <li>Stores a list of songs as an <code>ArrayList</code>, and initializes the list to be empty.</li>
+      <li>Has a method <code>addSong</code> to the <code>ITunes</code> class that adds a song to the <code>ArrayList</code>.</li>
+      <li>Has a <code>print</code> method that prints the entire song list using a for each loop.</li>
+      <li>Has a <code>main</code> method that adds 3 songs to the <code>iTunes</code> class <em>without</em> using the default constructor, and prints them out by calling the <code>print</code> method.</li>
+    </ul>
+  </li>
 </ol>
 
-<!--
-## Demonstration
+<p><em>If you don’t feel confident in Part I, <strong>STOP. Do not</strong> move on to Part II.</em></p>
 
-Once you've finished doing the WOD a single time, watch me do it:
+<h2 id="part-ii-itunes-challenge-methods">Part II: <code>ITunes</code> challenge methods</h2>
+
+<p><span class="h4">
+  <span style="padding: 2px" class="label label-success">Rx: &lt;10 min</span>
+  <span style="padding: 2px" class="label label-info">Av: 10-20 min</span>
+  <span style="padding: 2px" class="label label-warning">Sd: 20-30 min</span>
+  <span style="padding: 2px" class="label label-danger">DNF: 31+ min</span>
+</span></p>
+
+<p>Add the following methods to the <code>ITunes</code> class and test them in <code>main</code>:</p>
+
+<ul>
+  <li>Create a <code>getTotalPrice</code> method that returns the total cost of the entire song list.</li>
+  <li>Create a <code>getMinimumPrice</code> method that returns a <code>Song</code> with the lowest price in the list</li>
+</ul>
+
+<h2 id="demonstration">Demonstration</h2>
+
+<p>In class.</p>
+
+<!--Once you've finished doing the WOD a single time, watch me do it:
 
 <div class="video-container">
-  <iframe  src="http://www.youtube.com/embed/JsiGJZUha7E" frameborder="0" allowfullscreen></iframe>
+  <iframe  src="http://www.youtube.com/embed/cNWowv9ZkMs" frameborder="0" allowfullscreen></iframe>
 </div>
-
-### My Final Project
-
-[Picture_tree.zip](Picture_tree.zip)
 
 ## Standard Practice HW Advice
 
@@ -125,7 +143,6 @@ have not achieved at least Av performance. If so, be sure to:
   * Reset your timer.
 
 Feel free to keep trying until you make Rx if that’s of interest to you.-->
-
 
 </div>
 
