@@ -1,7 +1,7 @@
 ---
 title: "WOD3: Crowd"
 published: true
-morea_id: grade3
+morea_id: gradeX
 morea_type: assessment
 morea_outcomes_assessed:
  - outcome-classes
