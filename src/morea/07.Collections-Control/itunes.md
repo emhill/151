@@ -20,11 +20,6 @@ So far we've been working with composing shape objects with GUI Java classes. No
 {% include wod-times.html Rx="<15 min" Av="15-30 min" Sd="30-45 min" DNF="45+ min" %}
 
 
-Create an iTunes class that stores a list of songs as an ArrayList, and initialize the list to be empty
-Create a method addSong to the iTunes class
-Create a main method that adds 3 songs to iTunes (don’t use the default constructor)
-
-
 1. Create a new Java Project called `ITunes_uLogin`
 1. Create a new `Song` class with:
     * **4 Fields:** for a song's title, artist, album, & price

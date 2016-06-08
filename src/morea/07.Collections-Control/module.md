@@ -15,10 +15,12 @@ morea_experiences:
  - pwod6
  - pwod7
  - wod4
+ - wod5
  - wodX
  - itunes
 morea_assessments:
-# - grade3
+ - grade3
+
 morea_icon_url: /morea/materials/programmer.jpeg
 morea_sort_order: 7
 ---
