@@ -21,8 +21,8 @@ To practice working with ArrayLists, we're going to create a simple movie DB.
 1. Download [MovieDB.zip](MovieDB.zip) and import it into your workspace.
 2. Rename the project to include your `uLogin`
 1. Create a `MovieDB` class that: 
-    * Stores a list of songs as an `ArrayList`, and initializes the list to be empty.
-    * Has a method `addMovie` that adds a song to the `ArrayList`.
+    * Stores a list of movies as an `ArrayList`, and initializes the list to be empty.
+    * Has a method `addMovie` that adds a movie to the `ArrayList`.
     * Has a `print` method that prints the entire movie list using a for each loop.
     * Has a `getOldestMovie` method that returns the `Movie` object with the oldest year.
     * Has a `main` method that adds 3 movies to the `MovieDB`, and prints them out by calling the `print` method.
