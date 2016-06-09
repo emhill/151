@@ -47,8 +47,10 @@ Git is easy to use once you get the hang of it, but the initial setup requires s
 1. Create a github account – e-mail it to me
 2. Download & install [SourceTree](https://www.sourcetreeapp.com/). It will install git for you if you tell it to during installation.
 3. Download our repo from github through SourceTree using the URL `https://github.com/emhill/hangman2016.git`
-4. Import the repo into eclipse. Do **NOT** copy the project into the workspace:<BR> <img src="git-copy.png" width=300>
-5. When imported correctly, you should see `[master]` after the project name: <BR> <a href="./git-success.png"> <img src="git-success.png" width=300> </a>
+4. Import the repo into eclipse. Do **NOT** copy the project into the workspace:<BR>
+<a href="git-copy.png"><img src="git-copy.png" width=300></a>
+5. When imported correctly, you should see `[master]` after the project name: <BR>
+<a href="git-success.pn"> <img src="git-success.png" width=300> </a>
 
 If you have trouble with any of these steps, please see me or e-mail a screenshot of the issue.
 
