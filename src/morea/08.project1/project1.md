@@ -59,9 +59,9 @@ Once you've successfully imported the class project into eclipse from github, yo
 * In SourceTree, pull to get the latest version
 * Make any changes in eclipse 
 * Ready for everyone else to see your changes? In SourceTree: 
-* pull (if there are conflicting changes, address these in eclipse before proceeding)
 * Stage the files you changed
 * commit (make sure to give an informative message summarizing your changes!)
+* pull (if there are conflicting changes, address these in eclipse before proceeding)
 * push your changes to make them available through github
 
 
