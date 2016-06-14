@@ -34,7 +34,7 @@ So far we've been working with composing shape objects with GUI Java classes. No
 
 ## Part II: `ITunesArray` challenge methods
 
-{% include wod-times.html Rx="<10 min" Av="10-20 min" Sd="20-30 min" DNF="31+ min" %}
+<!--{% include wod-times.html Rx="<10 min" Av="10-20 min" Sd="20-30 min" DNF="31+ min" %}-->
 
 
 Add the following methods to the `ITunes` class and test them in `main`:
