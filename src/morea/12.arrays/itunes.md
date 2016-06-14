@@ -24,7 +24,7 @@ So far we've been working with composing shape objects with GUI Java classes. No
 1. Create an `ITunesArray` class that: 
     * Stores a list of songs as an array, and initializes the list to be empty.
     * Has a constructor that takes the maximum capacity as a parameter.
-    * Has a method `addSong` to the `ITunesArray` class that takes a `Song` as a parameter and adds it to the next open position.
+    * Has a method `addSong` that takes a `Song` as a parameter and adds it to the next open position. What should happen when the array is full?
     * Has a `print` method that prints the entire song list using a for each loop.
     * Has a `main` method that adds 3 songs to the `ITunesArray` class and prints them out by calling the `print` method.
 
