@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> WOD | CSCI 151 </title>
+  <title> Practice | CSCI 151 </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
 
@@ -54,9 +54,38 @@
 
 
 <div class="container">
-  <h1 id="wod4-timer">WOD4: Timer</h1>
+  <h1 id="practice-itunesarray">Practice: ITunesArray</h1>
 
-<p>So far we’ve been working with composing shape objects with GUI Java classes. Now we’re going to practice creating a <code>Timer</code> class that outputs to the console &amp; uses if statements. Your <code>Timer</code> class will count up from 0 and print “You have no time left!”</p>
+<p>So far we’ve been working with composing shape objects with GUI Java classes. Now we’re going to practice composing objects that only output to the console.</p>
+
+<h2 id="instructions">Instructions</h2>
+
+<h3 id="part-i-itunesarray">Part I: <code>ITunesArray</code></h3>
+
+<!--<span class="h4">
+  <span style="padding: 2px" class="label label-success">Rx: <15 min</span>
+  <span style="padding: 2px" class="label label-info">Av: 15-30 min</span>
+  <span style="padding: 2px" class="label label-warning">Sd: 30-45 min</span>
+  <span style="padding: 2px" class="label label-danger">DNF: 45+ min</span>
+</span>
+-->
+
+<ol>
+  <li>Open your Java Project called <code>ITunes_uLogin</code></li>
+  <li>Create an <code>ITunesArray</code> class that: 
+    <ul>
+      <li>Stores a list of songs as an array, and initializes the list to be empty.</li>
+      <li>Has a constructor that takes the maximum capacity as a parameter.</li>
+      <li>Has a method <code>addSong</code> to the <code>ITunesArray</code> class that takes a <code>Song</code> as a parameter and adds it to the next open position.</li>
+      <li>Has a <code>print</code> method that prints the entire song list using a for each loop.</li>
+      <li>Has a <code>main</code> method that adds 3 songs to the <code>ITunesArray</code> class and prints them out by calling the <code>print</code> method.</li>
+    </ul>
+  </li>
+</ol>
+
+<p><em>If you don’t feel confident in Part I, <strong>STOP. Do not</strong> move on to Part II.</em></p>
+
+<h2 id="part-ii-itunesarray-challenge-methods">Part II: <code>ITunesArray</code> challenge methods</h2>
 
 <p><span class="h4">
   <span style="padding: 2px" class="label label-success">Rx: &lt;10 min</span>
@@ -65,33 +94,41 @@
   <span style="padding: 2px" class="label label-danger">DNF: 31+ min</span>
 </span></p>
 
-<h2 id="instructions">Instructions</h2>
+<p>Add the following methods to the <code>ITunes</code> class and test them in <code>main</code>:</p>
 
-<ol>
-  <li>Write down your start time on your notecard.</li>
-  <li>Create a new Java Project called <code>Timer_uLogin</code></li>
-  <li>Create a new <code>Timer</code> class with:
-    <ul>
-      <li><strong>Fields</strong> to store: the time elapsed (seconds or minutes) and the time limit. <em>Think about what types these should be.</em></li>
-      <li>A <strong>constructor</strong> that takes the time limit as a parameter. What should the time elapsed be initialized to?</li>
-      <li>A <code>tick</code> method that increments the time elapsed. If the time elapsed is greater than or equal to the limit, print “You have no time left!”</li>
-      <li>A <code>time_left</code> method that returns how much time is left.</li>
-      <li>A <code>print</code> method that prints out useful information for the timer. <em>Think about what information you want to know when you look at a timer that’s counting up.</em></li>
-    </ul>
-  </li>
-  <li>
-    <p>Test your <code>Timer</code> class by writing a <code>main</code> method that creates a new <code>Timer</code> stored in a local variable, <code>timer</code>, that counts up to 3. Call <code>tick</code> 3 times, printing your <code>timer</code>’s status after each call. Do you correctly print when there is no time left?<br />
-Here is an example output:<br />
-Time: 0<br />
-Time: 1<br />
-Time: 2<br />
-You have no time left!<br />
-Time: 3<br /></p>
-  </li>
-  <li>Export your program by right-clicking on your project folder, and selecting <code>Export &gt; General &gt; Archive File</code>. Name the file <code>Timer_uLogin.zip</code>.</li>
-  <li>Upload the file to the assignment page on canvas.</li>
-  <li>Write down your stop time on your notecard.</li>
-</ol>
+<ul>
+  <li>Create a <code>getTotalPrice</code> method that returns the total cost of the entire song list.</li>
+  <li>Create a <code>getMinimumPrice</code> method that returns a <code>Song</code> with the lowest price in the list</li>
+</ul>
+
+<h2 id="demonstration">Demonstration</h2>
+
+<p>In class.</p>
+
+<!--Once you've finished doing the WOD a single time, watch me do it:
+
+<div class="video-container">
+  <iframe  src="http://www.youtube.com/embed/cNWowv9ZkMs" frameborder="0" allowfullscreen></iframe>
+</div>
+
+## Standard Practice HW Advice
+
+You’ll learn significantly less from watching me solve the
+practice HW if you haven’t attempted the HW yourself first.
+
+While it's an achievement to finish the HW no matter how long it takes, you
+might experience "diminishing returns" if you work longer than the DNF
+time. Thus, it might be strategic to stop working at the DNF time and watch
+my solution.
+
+After watching my solution, I recommend that you repeat the HW if you
+have not achieved at least Av performance. If so, be sure to:
+
+  * Delete your old project so you cannot refer to it (remember to delete contents from disk);
+  * Don’t look at my screencast while you complete your HW; and
+  * Reset your timer.
+
+Feel free to keep trying until you make Rx if that’s of interest to you.-->
 
 </div>
 
